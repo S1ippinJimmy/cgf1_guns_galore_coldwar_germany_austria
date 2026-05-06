@@ -7,7 +7,7 @@
 		<description>Caliber: 7.62x51mm NATO. 100-round bullet link. Select-Fire.</description>
 		<graphicData>
 			<texPath>CGF1/Gun/MG3</texPath>
-			<drawSize>1.10</drawSize>
+			<drawSize>1.13</drawSize>
 		</graphicData>
 		<recipeMaker>
 			<recipeUsers>
@@ -81,7 +81,7 @@
 				<def>MF_StandardMuzzleFalsh</def>
 				<drawSize>(1.0,1.0)</drawSize>
 				<offsets>
-					<li>(0.69,0.06)</li>
+					<li>(0.65,0.05)</li>
 				</offsets>
 			</li>
 		</modExtensions>

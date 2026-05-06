@@ -2,11 +2,11 @@
 <Defs>
 
 	<ThingDef ParentName="CGF1_MWP_GPMG_T1">
-		<defName>CGF1_MWP_MG74_</defName>
-		<label>MG74</label>
+		<defName>CGF1_MWP_MG1_</defName>
+		<label>MG1</label>
 		<description>Caliber: 7.62x51mm NATO. 100-round bullet link. Select-Fire.</description>
 		<graphicData>
-			<texPath>CGF1/Gun/MG74</texPath>
+			<texPath>CGF1/Gun/MG1</texPath>
 			<drawSize>1.13</drawSize>
 		</graphicData>
 		<recipeMaker>
@@ -51,7 +51,7 @@
 				<warmupTime>2.4</warmupTime>
 				<range>36.9</range>
 				<burstShotCount>8</burstShotCount>
-				<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+				<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
 				<soundCast>CGF1_MWP_SFX_MG_Medium5</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>

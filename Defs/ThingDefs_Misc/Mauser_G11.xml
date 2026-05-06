@@ -88,7 +88,7 @@
 		</modExtensions>
 		<generateCommonality>0.0125</generateCommonality> <!-- Rare -->
 		<thingSetMakerTags>
-			<li>CGF1_GunsGalore_RewardAncient_Common</li>
+			<li>CGF1_GunsGalore_RewardAncient_Prototype</li>
 		</thingSetMakerTags>
 	</ThingDef>
 	

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef ParentName="CGF1_MWP_GPMG_T1">
-		<defName>CGF1_MWP_MG74_</defName>
-		<label>MG74</label>
-		<description>Caliber: 7.62x51mm NATO. 100-round bullet link. Select-Fire.</description>
+	<ThingDef ParentName="CGF1_MWP_BattleRifle_T1">
+		<defName>CGF1_MWP_FN_FAL_G1_Scope_</defName>
+		<label>FN FAL G1 (Scope)</label>
+		<description>Caliber: 7.62x51mm NATO. 20-round detachable mag. Select-Fire.</description>
 		<graphicData>
-			<texPath>CGF1/Gun/MG74</texPath>
-			<drawSize>1.13</drawSize>
+			<texPath>CGF1/Gun/FN_FAL_G1</texPath>
+			<drawSize>1.12</drawSize>
 		</graphicData>
 		<recipeMaker>
 			<recipeUsers>
@@ -19,40 +19,40 @@
 			</skillRequirements>
 		</recipeMaker>
 		<costList>
-			<Steel>85</Steel>
-			<ComponentIndustrial>7</ComponentIndustrial>
+			<Steel>80</Steel>
+			<ComponentIndustrial>8</ComponentIndustrial>
 		</costList>
 		<statBases>
-			<WorkToMake>50000</WorkToMake>
-			<Mass>11.6</Mass>
-			<AccuracyTouch>0.40</AccuracyTouch>
-			<AccuracyShort>0.60</AccuracyShort>
-			<AccuracyMedium>0.60</AccuracyMedium>
-			<AccuracyLong>0.50</AccuracyLong>
-			<RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+			<WorkToMake>45000</WorkToMake>
+			<Mass>4.3</Mass>
+			<AccuracyTouch>0.55</AccuracyTouch>
+			<AccuracyShort>0.65</AccuracyShort>
+			<AccuracyMedium>0.75</AccuracyMedium>
+			<AccuracyLong>0.60</AccuracyLong>
+			<RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
 		</statBases>
 		<equippedAngleOffset>40</equippedAngleOffset>
 		<weaponTags>
-			<li>CGF1_LMG_Military</li>
-			<li>CGF1_LMG_Military_Advanced</li>
+			<li>CGF1_AR_Military</li>
+			<li>CGF1_AR_Military_Advanced</li>
 		</weaponTags>
 		<weaponClasses>
 			<li>RangedHeavy</li>
 		</weaponClasses>
 		<tradeTags>
 			<li>CGF1_GunsGalore_ColdWarGermAus</li>
-			<li>CGF1_GunsGalore_ColdWarGermAus_LMG</li>
+			<li>CGF1_GunsGalore_ColdWarGermAus_BR</li>
 		</tradeTags>
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>CGF1_MWP_Bullet_762x51mmNATO_Auto</defaultProjectile>
-				<warmupTime>2.4</warmupTime>
+				<warmupTime>1.45</warmupTime>
 				<range>36.9</range>
-				<burstShotCount>8</burstShotCount>
-				<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-				<soundCast>CGF1_MWP_SFX_MG_Medium5</soundCast>
+				<burstShotCount>3</burstShotCount>
+				<ticksBetweenBurstShots>9</ticksBetweenBurstShots>
+				<soundCast>CGF1_MWP_SFX_Rifle_Auto10</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</li>
@@ -63,8 +63,8 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>11</power>
-				<cooldownTime>2.6</cooldownTime>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
 			</li>
 			<li>
 				<label>barrel</label>
@@ -72,20 +72,20 @@
 					<li>Blunt</li>
 					<li>Poke</li>
 				</capacities>
-				<power>10</power>
-				<cooldownTime>2.6</cooldownTime>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
 			</li>
 		</tools>
 		<modExtensions>
 			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="issaczhuang.muzzleflash">
-				<def>MF_StandardMuzzleFalsh</def>
-				<drawSize>(1.0,1.0)</drawSize>
+				<def>MF_StandardMuzzleFalshThree</def>
+				<drawSize>(0.8,0.8)</drawSize>
 				<offsets>
-					<li>(0.65,0.05)</li>
+					<li>(0.7,0.04)</li>
 				</offsets>
 			</li>
 		</modExtensions>
-		<generateCommonality>0.10</generateCommonality> <!-- Average -->
+		<generateCommonality>0.05</generateCommonality> <!-- Uncommon -->
 	</ThingDef>
 	
 </Defs>
