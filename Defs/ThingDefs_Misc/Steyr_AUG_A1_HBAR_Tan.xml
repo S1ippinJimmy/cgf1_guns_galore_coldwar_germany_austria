@@ -2,11 +2,11 @@
 <Defs>
 
 	<ThingDef ParentName="CGF1_MWP_AssaultRifle_T0">
-		<defName>CGF1_MWP_Steyr_AUG_A1_HBAR_Black_</defName>
-		<label>Steyr AUG A1 HBAR Black</label>
+		<defName>CGF1_MWP_Steyr_AUG_A1_HBAR_Tan_</defName>
+		<label>Steyr AUG A1 HBAR Tan</label>
 		<description>Caliber: 5.56x45mm NATO. 30-round detachable mag. Select-Fire.</description>
 		<graphicData>
-			<texPath>CGF1/Gun/Steyr_AUG_A1_HBAR_Black</texPath>
+			<texPath>CGF1/Gun/Steyr_AUG_A1_HBAR_Tan</texPath>
 			<drawSize>1.03</drawSize>
 		</graphicData>
 		<recipeMaker>

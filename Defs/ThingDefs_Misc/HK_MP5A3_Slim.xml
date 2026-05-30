@@ -36,8 +36,6 @@
 			<li>CGF1_SMG_Civilian</li>
 			<li>CGF1_SMG_Military</li>
 			<li>CGF1_SMG_Military_Advanced</li>
-			
-			<li>CGF1_HLRW_Combine_Metrocop</li>
 		</weaponTags>
 		<weaponClasses>
 			<li>ShortShots</li>

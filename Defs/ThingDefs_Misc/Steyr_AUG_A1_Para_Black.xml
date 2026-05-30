@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef ParentName="CGF1_MWP_AssaultRifle_T0">
-		<defName>CGF1_MWP_Steyr_AUG_A1_HBAR_Black_</defName>
-		<label>Steyr AUG A1 HBAR Black</label>
-		<description>Caliber: 5.56x45mm NATO. 30-round detachable mag. Select-Fire.</description>
+	<ThingDef ParentName="CGF1_MWP_SMG_T1">
+		<defName>CGF1_MWP_Steyr_AUG_A1_Para_Black_</defName>
+		<label>Steyr AUG A1 Para Black</label>
+		<description>Caliber: 9x19mm Parabellum. 32-round detachable mag. Select-Fire.</description>
 		<graphicData>
-			<texPath>CGF1/Gun/Steyr_AUG_A1_HBAR_Black</texPath>
-			<drawSize>1.03</drawSize>
+			<texPath>CGF1/Gun/Steyr_AUG_A1_Para_Black</texPath>
+			<drawSize>1.00</drawSize>
 		</graphicData>
 		<recipeMaker>
 			<recipeUsers>
@@ -15,44 +15,44 @@
 			</recipeUsers>
 			<researchPrerequisite>CGF1_MWP_Research_T9_SpaceAgeFirearms</researchPrerequisite>
 			<skillRequirements>
-				<Crafting>6</Crafting>
+				<Crafting>5</Crafting>
 			</skillRequirements>
 		</recipeMaker>
 		<costList>
-			<Steel>75</Steel>
-			<ComponentIndustrial>8</ComponentIndustrial>
+			<Steel>60</Steel>
+			<ComponentIndustrial>5</ComponentIndustrial>
 		</costList>
 		<statBases>
-			<WorkToMake>41000</WorkToMake>
-			<Mass>3.9</Mass>
-			<AccuracyTouch>0.60</AccuracyTouch>
-			<AccuracyShort>0.70</AccuracyShort>
-			<AccuracyMedium>0.65</AccuracyMedium>
-			<AccuracyLong>0.55</AccuracyLong>
-			<RangedWeapon_Cooldown>1.7</RangedWeapon_Cooldown>
+			<WorkToMake>25000</WorkToMake>
+			<Mass>3</Mass>
+			<AccuracyTouch>0.85</AccuracyTouch>
+			<AccuracyShort>0.65</AccuracyShort>
+			<AccuracyMedium>0.35</AccuracyMedium>
+			<AccuracyLong>0.20</AccuracyLong>
+			<RangedWeapon_Cooldown>1.65</RangedWeapon_Cooldown>
 		</statBases>
 		<equippedAngleOffset>40</equippedAngleOffset>
 		<weaponTags>
-			<li>CGF1_AR_Military</li>
-			<li>CGF1_AR_Military_Advanced</li>
+			<li>CGF1_SMG_Military</li>
+			<li>CGF1_SMG_Military_Advanced</li>
 		</weaponTags>
 		<weaponClasses>
-			<li>RangedHeavy</li>
+			<li>RangedLight</li>
 		</weaponClasses>
 		<tradeTags>
 			<li>CGF1_GunsGalore_ColdWarGermAus</li>
-			<li>CGF1_GunsGalore_ColdWarGermAus_AR</li>
+			<li>CGF1_GunsGalore_ColdWarGermAus_SMG</li>
 		</tradeTags>
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>CGF1_MWP_Bullet_556x45mmNATO_Auto</defaultProjectile>
-				<warmupTime>1.15</warmupTime>
-				<range>33.9</range>
-				<burstShotCount>3</burstShotCount>
+				<defaultProjectile>CGF1_MWP_Bullet_9x19mmParabellum_Pistol</defaultProjectile>
+				<warmupTime>1.05</warmupTime>
+				<range>30.9</range>
+				<burstShotCount>5</burstShotCount>
 				<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-				<soundCast>CGF1_MWP_SFX_Rifle_Auto4</soundCast>
+				<soundCast>CGF1_MWP_SFX_Pistol1</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</li>
@@ -79,13 +79,13 @@
 		<modExtensions>
 			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="issaczhuang.muzzleflash">
 				<def>MF_StandardMuzzleFalsh</def>
-				<drawSize>(0.8,0.8)</drawSize>
+				<drawSize>(0.9,0.9)</drawSize>
 				<offsets>
-					<li>(0.47,0.11)</li>
+					<li>(0.41,0.07)</li>
 				</offsets>
 			</li>
 		</modExtensions>
-		<generateCommonality>0.10</generateCommonality> <!-- Average -->
+		<generateCommonality>0.20</generateCommonality> <!-- Common -->
 	</ThingDef>
 	
 </Defs>
